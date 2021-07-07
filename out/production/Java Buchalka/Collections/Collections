@@ -1,0 +1,24 @@
+// Kolekcja to nic innego jak sposób grupowania obiektów.
+// Kolekcją możemy także nazwać tablicę obiektów, którą już znasz.
+
+LISTA
+Lista (ang. list) podobnie jak tablica, grupuje elementy.
+Jej główną przewagą nad tablicą jest to, że programista nie musi się przejmować rozmiarem listy2,
+jest ona automatycznie powiększana wraz z dodawaniem nowych elementów.
+Przykłady
+java.util.LinkedList - LinkedList lepiej jest używać jeśli często usuwasz elementy z listy
+java.util.ArrayList - ArrayList lepiej jest używać jeśli często chcesz mieć dostęp do losowych elementów w liście.
+
+
+ZBIÓR
+Zbiór (ang. set) to kolekcja, która służy do przechowywania unikalnych elementów.
+W odróżnieniu od listy, w zbiorze można przechowywać wyłącznie jedną instancję obiektu.
+W przypadku zbioru nie jest istotna kolejność dodawanych elementów.
+
+MAPA
+Mapa (ang. map) jest kolekcją, która pozwala przechować odwzorowanie zbioru kluczy na listę wartości.
+Innymi słowy w mapie możemy trzymać klucze, którym odpowiadają wartości.
+Klucze muszą być unikalne (dlatego pisałem o zbiorze kluczy), wartości natomiast mogą się powtarzać.
+Czyli pod kluczem A i pod kluczem B może być ta sama wartość X.
+Ale sytuacja odwrotna gdzie klucz X występuje dwa razy i jeden z nich wskazuje na element A a inny na element B nie jest możliwa3.
+

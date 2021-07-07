@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Java Buchalka:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Java_Buchalka_jar</output-path>
+    <root id="archive" name="Java Buchalka.jar">
+      <element id="module-output" name="Java Buchalka" />
+    </root>
+  </artifact>
+</component>
